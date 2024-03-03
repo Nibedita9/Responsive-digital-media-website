@@ -1,8 +1,19 @@
-@media(max-width:1000px){
+@media(max-width:768px){
     .humburger-container{
         display: block;
     }
     .navbar{
         display: none;
+    }
+    .sub-info{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        padding: 30px 50px;
+    }
+    .box{
+        text-align:start;
+    }
+    .work-icon{
+        height: 70px;
     }
 }
